@@ -1,0 +1,94 @@
+/* 
+
+*/
+/* exercicio 1 */
+.p1{
+   font-size: 30px; 
+   font-family: fantasy;
+}
+.p2{
+    font-family: 'Lucida Sans';
+    font-size: large;
+}
+.p3{
+    font-size: medium;
+    font-family: Arial;
+}
+.p4{
+    font-size: small;
+    font-family: sans-serif;
+}
+.p5{
+    font-size: x-small;
+    font-family: verdana;
+}
+.p6{
+    font-size: xx-small;
+    font-family: sans-serif;
+}
+
+/* questao 2 */
+
+
+h2{
+    font-family: Courier;
+    font-size: larger;
+    font-style: normal;
+    font-weight: 800;
+}
+.bolo2{
+    font-family: Verdana;
+    font-size: small;
+    font-style: italic;
+    font-weight: 200;
+}
+.bolo3{
+    font-family: monospace;
+    font-size: normal;
+    font-style: oblique;
+    font-weight: 500;
+}
+.bolo4{
+    font-family: fantasy;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* questao 3 */
+
+/* 
+    Utilizando CSS interno ou externo atenda os requisitos abaixo:
+
+Crie uma receita (obrigatório)
+ utilizando os comandos de manipulação de fonte
+1. O texto deve ser alinhado ao centro
+2. Utilize o h1 para dizer o nome da receita e nele insira uma fonte(familia) diferente dos demais elementos
+3. Um dos ingredientes deve ter uma linha riscada
+4. O tempo de preparo deve ser em itálico 
+5. Para fins de estética visual pode se utilizar elementos background
+
+Extra para estudo adicional:
+
+6. Deve se colocar  na fonte cores de acordo com a prioridade dos ingredientes (Verde - obrigatorios / azul - a gosto)
+*/
+#central{
+    text-align: center;
+    background-image: url("image/pudim.jpg");
+    
+}
+
+h1{
+    font-family:'Lucida Sans Regular';
+}
+
+.risco{
+    text-decoration: line-through;
+}
+.ita{
+    font-style: italic;
+}
+#calda{
+    font-family:'Times New Roman';
+}
+

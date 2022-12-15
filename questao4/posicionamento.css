@@ -1,0 +1,36 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 30px;
+}
+.esqcima{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.esqbaixo{
+    position: absolute;
+    float: left;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.dircima{
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.dirbaixo{
+    position: absolute;
+    float: right;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
